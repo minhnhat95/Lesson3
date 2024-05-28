@@ -1,0 +1,54 @@
+div.cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0 2rem 2rem 2rem;
+}
+
+div.cards div.card {
+  width: 18rem;
+  height: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  padding: 1.5rem;
+  text-align: left;
+}
+
+div.cards div.card img {
+  width: 100%;
+  background-color: #f2f2f2;
+  border-radius: 0.75rem;
+}
+
+div.cards div.card p.pokemon_id {
+  color: #919191;
+  font-size: 1.25rem;
+  margin: 0.5rem 0 0 0;
+}
+
+div.cards div.card p.pokemon_name {
+  color: black;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0 0 1rem;
+}
+
+div.cards div.card div.pokemon_class_wrapper {
+  margin: 0.5rem 0;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.cards div.card div.pokemon_class_wrapper div {
+  font-size: 1.25rem;
+  width: 6rem;
+  padding: 0.25rem 0.25rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
